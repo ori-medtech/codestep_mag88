@@ -1,0 +1,256 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial,"Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1 {
+  line-height: 0;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.125;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: calc(21 / 16);
+}
+
+a {
+  text-decoration: none;
+  color: #24292E;
+  display: inline-block;
+}
+
+a:hover {
+  opacity: .6;
+}
+
+a:visited {
+  color: #24292E;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding: 60px 5%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-text {
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 560px;
+}
+
+.button {
+  padding: 13px 36px 13px 35px;
+  border: 1px solid #24292E;
+  font-size: 12px;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/mainvisual.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+header h1 img {
+  width: 120px;
+  height: 40px;
+}
+
+/* archive-new */
+.archive-new {
+  margin-top: 20px;
+}
+
+.archive-new_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+.archive_contents {
+  position: relative;
+  max-width: 510px;
+}
+
+.archive_img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.archive_text {
+  width: calc(290 / 510 * 100%);
+  height: auto;
+  background-color: rgba(120, 120, 120, 0.5);
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 15px 33px 16px 33px;
+}
+
+/* fashion-style */
+.fashion-style {
+  margin-top: 20px;
+  width: 100%;
+  height: 520px;
+  background-image: url(../img/fashion.jpg);
+  background-position: center;
+}
+
+.fashion-style_container .button {
+  margin-top: 30px;
+}
+
+/* catalog-antique */
+.catalog-antique {
+  margin-top: 80px;
+  background-color: #f5f5f5;
+}
+
+.catalog-antique_container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 120px;
+}
+
+.catalog_contents {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalog_contents:nth-of-type(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.img_container {
+  width: calc(500 / 1040 * 100%);
+}
+
+.catalog_img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: bottom;
+}
+
+.catalog_text {
+  width: calc(506 / 1040 * 100%);
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+}
+
+.catalog_text h2 + p {
+  margin-top: 40px;
+}
+
+.catalog_text p + p {
+  margin-top: 30px;
+}
+
+.catalog_text .button {
+  margin-top: 60px;
+}
+
+/* nav */
+.nav {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav .wrapper {
+  height: 368px;
+  text-align: left;
+}
+
+.nav_container {
+  margin-top: 40px;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-logo_img {
+  width: 120px;
+  height: 40px;
+  margin-top: 60px;
+}
+
+.nav_list ul {
+  list-style-position: inside;
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 1.9;
+}
+
+.explain {
+  width: 336px;
+}
+
+.explain .exp_text {
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 1.875;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
