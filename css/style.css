@@ -37,6 +37,10 @@ a:visited {
   color: #24292E;
 }
 
+br {
+  display: none;
+}
+
 .wrapper {
   max-width: 1200px;
   padding: 60px 5%;
@@ -52,7 +56,7 @@ a:visited {
 }
 
 .button {
-  padding: 13px 36px 13px 35px;
+  padding: 12px 36px 12px 35px;
   border: 1px solid #24292E;
   font-size: 12px;
 }
@@ -106,8 +110,8 @@ header h1 img {
 }
 
 .archive_text {
-  width: calc(290 / 510 * 100%);
-  height: auto;
+  width: 290px;
+  height: 97px;
   background-color: rgba(120, 120, 120, 0.5);
   color: #fff;
   position: absolute;
@@ -116,6 +120,11 @@ header h1 img {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   padding: 15px 33px 16px 33px;
+}
+
+.archive_text h3 {
+  font-size: 20px;
+  line-height: 1.1;
 }
 
 /* fashion-style */
@@ -249,7 +258,7 @@ header h1 img {
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   font-size: 12px;
 }

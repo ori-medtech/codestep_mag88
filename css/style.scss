@@ -38,12 +38,15 @@ a {
   }
 }
 
+br {
+  display: none;
+}
+
 .wrapper {
   max-width: 1200px;
   padding: 60px 5%;
   margin: 0 auto;
   text-align: center;
-  // background: gray;
 }
 
 .section-text {
@@ -54,7 +57,7 @@ a {
 }
 
 .button {
-  padding: 13px 36px 13px 35px;
+  padding: 12px 36px 12px 35px;
   border: 1px solid $fontColor;
   font-size: 12px;
 }
@@ -103,8 +106,8 @@ header {
 }
 
 .archive_text {
-  width: calc(290 / 510 * 100%);
-  height: auto;
+  width: 290px;
+  height: 97px;
   background-color: rgba(120, 120, 120, .5);
   color: #fff;
   position: absolute;
@@ -112,6 +115,10 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 15px 33px 16px 33px;
+  h3 {
+    font-size: 20px;
+    line-height: 1.1;
+  }
 }
 
 /* fashion-style */
@@ -148,8 +155,6 @@ header {
   &:nth-of-type(even) {
     flex-direction: row-reverse;
   }
-  // background: toma to;
-
 }
 
 .img_container {
@@ -223,7 +228,7 @@ header {
 }
 
 footer {
-  margin-top: 30px;
+  margin-top: 20px;
   text-align: center;
   font-size: 12px;
 }
